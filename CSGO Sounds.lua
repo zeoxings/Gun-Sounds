@@ -1,7 +1,4 @@
---[[
-Credits:
-zeox#0001
---]]
+-- made by zeox#0001
 while true do
 	wait(0.5)
 	pcall(function()
@@ -288,6 +285,7 @@ while true do
 	    end
         if player.EquippedTool.Value == "R8" then
             player.Gun.Shoot.SoundId = "rbxassetid://3157680571"
+            player.Gun.Shoot.PlaybackSpeed = 1
         end
         if player.EquippedTool.Value == "T Knife" then
             player.Gun.Shoot1.SoundId = "rbxassetid://346813526"
