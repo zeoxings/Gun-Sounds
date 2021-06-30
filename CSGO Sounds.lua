@@ -285,6 +285,13 @@ while true do
 	    end
         if player.EquippedTool.Value == "R8" then
             player.Gun.Shoot.SoundId = "rbxassetid://3157680571"
+            player.Gun.close.SoundId = "rbxassetid://7011665648"
+            player.Gun.open.SoundId = "rbxassetid://7011665146"
+            player.Gun.insert.SoundId = "rbxassetid://7011665478"
+            player.Gun.unpull.SoundId = "rbxassetid://7005870292"
+            player.Gun.pull.SoundId = "rbxassetid://0"
+            player.Gun.release.SoundId = "rbxassetid://7011665812"
+            player.Gun.unpull.PlaybackSpeed = 1
             player.Gun.Shoot.PlaybackSpeed = 1
         end
         if player.EquippedTool.Value == "T Knife" then
